@@ -1,0 +1,22 @@
+{
+	"extends": "@tsconfig/node16-strictest/tsconfig.json",
+	"compilerOptions": {
+		"allowJs": false,
+		"checkJs": false,
+		"resolveJsonModule": true,
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"noFallthroughCasesInSwitch": false,
+		"noImplicitOverride": false,
+		"noImplicitReturns": false,
+		"noPropertyAccessFromIndexSignature": false,
+		"noUncheckedIndexedAccess": false,
+		"exactOptionalPropertyTypes": false,
+		"inlineSourceMap": true,
+		"importsNotUsedAsValues": "remove",
+		"noUnusedLocals": false,
+		"allowUnusedLabels": true
+	},
+	"exclude": ["dist", "node_modules"]
+}

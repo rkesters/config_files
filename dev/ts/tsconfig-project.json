@@ -1,0 +1,9 @@
+{
+	"extends": "@charm/tsconfig/dist/tsconfig.node.base.json",
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"lib": ["es2021", "dom"]
+	},
+	"include": ["src/**/*", "src/**/*.json"]
+}

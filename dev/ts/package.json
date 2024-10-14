@@ -1,0 +1,23 @@
+{
+	"name": "@charm/tsconfig",
+	"version": "1.0.0",
+	"description": "Sharable TSConfig for Charm projects.",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"build:watch": "",
+		"test": ""
+	},
+	"keywords": [
+		"tsconfig",
+		"typescript"
+	],
+	"author": "Robert Kesterson <robert.d.kesterson@leidos.com>",
+	"license": "ISC",
+	"dependencies": {
+		"@tsconfig/node16-strictest": "~1.0.4"
+	},
+	"devDependencies": {
+		"typescript": "4.9.5"
+	}
+}

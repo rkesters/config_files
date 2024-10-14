@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"module": "es2020",
+		"target": "es2015",
+		"lib": ["es5", "es6", "es7", "es2017", "dom"],
+		"jsx": "react-jsx",
+		"allowJs": false,
+		"sourceMap": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"noErrorTruncation": true,
+		"forceConsistentCasingInFileNames": true,
+		"declaration": true,
+		"declarationMap": true
+	}
+}
